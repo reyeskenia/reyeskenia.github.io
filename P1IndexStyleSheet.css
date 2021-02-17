@@ -1,0 +1,172 @@
+
+body {
+  background-color: white;
+}
+
+.topLeft{
+  width: 20%;
+  float: left;
+  padding-top: 10px;
+  padding-left: 5px
+}
+
+.topLeft img{
+  width: 65%;
+  height: 35%;
+}
+
+.topRight{
+  width: 20%;
+  padding-left: 87%;
+}
+
+.topRight img{
+  width: 65%;
+  height: 35%;
+}
+
+.intro{
+  width: 100%;
+}
+
+.title{
+  text-align: center;
+}
+
+.desc{
+  text-align: left;
+  font-size: 11px;
+  padding-left: 5px
+}
+
+.box{
+  width: 94%;
+  background-color: #ffb3bf;
+  border: 2px solid black;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: white;
+}
+
+.img1{
+  margin-left:12%;
+  margin-top: 30px;
+  float: left;
+}
+
+.img1 img{
+  width: 320px;
+  height: 220px;
+  border: 2px solid purple;
+}
+
+.desc2{
+  width: 50%;
+  height: 160px;
+  margin-left: 48%;
+  margin-top: 70px;
+  font-size: 15px;
+  text-align: left;
+}
+
+.desc3{
+  width: 50%;
+  height: 10%;
+  margin-left: 12%;
+  margin-top: 48px;
+  margin-bottom: 50px;
+  font-size: 15px;
+  text-align: left;
+  float: left;
+}
+
+.img2{
+  height: 30%;
+  margin-left:64%;
+  margin-top:5px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+  float:none;
+}
+
+.img2 img{
+  width: 385px;
+  height: 200px;
+  border: 2px solid purple;
+}
+
+.sections{
+  font-size: 20px;
+  text-align: left;
+}
+
+.sectionHeadings{
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.eventsLinks{
+  margin-left: 100px;
+}
+
+.table{
+  text-align: left;
+  width: 100%;
+}
+
+.pricesTable th{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: lightgreen;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.pricesTable table {
+  border: 3px solid black;
+  padding: 1px;
+}
+
+.pricesTable td{
+  font-style: normal;
+  font-weight: 300;
+}
+
+.contactIcons{
+  width: 65%;
+  height: 35%;
+  font-family: georgia;
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.logos{
+  width:55%;
+  height: 45%;
+}
+
+.logos img{
+  width: 20%;
+  height: 20%;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-family: georgia;
+  font-size: 20px;
+}
+
+.footer a{
+  padding: 25px;
+  text-decoration-style: solid;
+}
+
+.copyRights{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+}
