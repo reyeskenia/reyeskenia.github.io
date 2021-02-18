@@ -1,0 +1,52 @@
+body{
+  background-color: white;
+}
+
+.clock{
+  width: 30%;
+  height: 30%;
+  margin-left: 35%;
+  margin-top: 8%;
+  background-color: #ff5050;
+  position: relative;
+}
+
+.clock img{
+  width: 100%;
+}
+
+.mins {
+  width: 46%;
+  position: absolute;
+  margin-left: 50%;
+  top: 38%;
+}
+
+.mins img{
+  width: 100%;
+  animation: minute 10s;
+  animation-fill-mode: forwards;
+  transform-origin: left;
+}
+
+.hrs{
+  width:34%;
+  position: absolute;
+  margin-left: 50%;
+  top: 41%;
+}
+
+.hrs img{
+  width: 100%;
+  animation: hour 10s;
+  animation-fill-mode: forwards;
+  transform-origin: left;
+}
+
+@keyframes minute {
+  100%{transform: rotate(360deg);}
+}
+
+@keyframes hour {
+  100%{transform: rotate(30deg);}
+}
