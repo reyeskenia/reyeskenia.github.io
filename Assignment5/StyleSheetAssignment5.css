@@ -1,0 +1,205 @@
+body {
+  background-color: white;
+}
+
+.mainFrame {
+  width: 100%;
+  height: 568px;
+  margin-top: 1px;
+  padding-bottom: 1px;
+  margin-left: 1px;
+}
+
+.products {
+  width: 40%;
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 7%;
+  border: 3px solid #cc0000;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.products img{
+  max-width: 100%;
+  margin-top: 10%;
+  margin-left: 28%;
+  position: absolute;
+}
+
+.products p{
+  max-width: 100%;
+  font-size: 22px;
+  text-align: center;
+  font-family: serif;
+  margin-top: 53%;
+  margin-left: 23%;
+  position: absolute;
+}
+
+.products a{
+  background-color: orange;
+  color: white;
+  margin-top: 65%;
+  margin-left: 33%;
+  text-decoration: none;
+  border-radius: 15px;
+  position: absolute;
+}
+
+/*Modal 1*/
+
+.modal1{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(13, 64, 115, 0.92);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal1:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.info1{
+  position: relative;
+  width: 60%;
+  height: 80%;
+  margin-top: 4%;
+  margin-left: 22%;
+  background-color: #ffb399;
+  overflow: hidden;
+}
+
+.info1 h2{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  color: #cf1745;
+  font-size: 45px;
+  font-family: cursive;
+  margin-top: 0px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.info1 p{
+  position: absolute;
+  text-align: center;
+  font-style: oblique;
+  font-size: 89%;
+  width: 94%;
+  background-color: #ffcc80;
+  margin-top: 14%;
+  margin-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.info1 img{
+  position: absolute;
+  width: 290px;
+  height: 225px;
+  margin-top: 32%;
+  margin-left: 25%;
+}
+
+.info1 a{
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  background: purple;
+  color: lightblue;
+  margin-top: 45%;
+  margin-left: 81.5%;
+  width: 8%;
+  height: 6%;
+  padding-top: 1%;
+  border-left: 2px solid orange;
+  border-right: 2px solid orange;
+  border-top: 2px solid orange;
+}
+
+/*Modal 2*/
+
+.modal2{
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(77, 115, 38, 0.9);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal2:target{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.info2{
+  position: relative;
+  width: 60%;
+  height: 80%;
+  margin-top: 4%;
+  margin-left: 22%;
+  background-color: #0088cc;
+  overflow: hidden;
+}
+
+.info2 h2{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: #ff9966;
+  color: white;
+  font-size: 45px;
+  font-family: cursive;
+  margin-top: 0px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.info2 p{
+  position: absolute;
+  text-align: center;
+  font-style: oblique;
+  font-size: 99%;
+  width: 94%;
+  background-color: #00e6ac;
+  color: red;
+  margin-top: 14%;
+  margin-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.info2 img{
+  position: absolute;
+  width: 326px;
+  height: 225px;
+  margin-top: 29%;
+  margin-left: 25%;
+}
+
+.info2 a{
+  position: absolute;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  background: white;
+  color: gray;
+  margin-top: 0%;
+  margin-left: 98%;
+  border-bottom: 2px groove lightpink;
+  border-left: 2px groove lightpink;
+  border-top: 1px solid lightpink;
+  border-right: 1px solid lightpink;
+}
