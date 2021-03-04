@@ -1,0 +1,424 @@
+body{
+  background-color: lightyellow;
+}
+
+/* Titles */
+
+.topHeading {
+  width: 100%;
+}
+
+.logo {
+  width: 13%;
+  border: 2.3px ridge #a6a63f;
+  border-radius: 20%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.logo img{
+  max-width: 100%;
+  animation: mainLogo 6s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes mainLogo {
+  0%{transform: scale(1) rotate(0deg);}
+  100%{transform: scale(0.15) rotate(360deg);}
+}
+
+.title1 {
+  width: 80%;
+  margin-left: 20%;
+  font-size: 32px;
+  font-style: oblique;
+  color: #818131;
+  animation: t1 15s ease infinite;
+}
+
+@keyframes t1 {
+  0%{transform: rotateY(0deg);}
+  25%{transform: rotateY(100deg);}
+  50%{transform: rotateY(200deg);}
+  75%{transform: rotateY(300deg);}
+  100%{transform: rotateY(360deg);}
+}
+
+.title2 {
+  width: 80%;
+  margin-left: 20%;
+  font-size: 20px;
+  font-weight: bolder;
+  animation: t2 8s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes t2 {
+  0%{transform: scale(1);}
+  100%{transform: scale(0.75);}
+}
+
+/*SlideShow Animation*/
+
+.middleSec {
+  width: 96%;
+  height: 50px;
+  margin-left: 2%;
+  overflow: hidden;
+}
+
+.slideShow {
+  width: 300%;
+  height: 50px;
+  text-align: center;
+  font-size: 13px;
+  animation: show 35s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+@keyframes show {
+  0%{margin-left: 0%;}
+  66%{margin-left: -100%;}
+  100%{margin-left: -200%;}
+}
+
+.slide {
+  width: 33.2%;
+  height: 50px;
+  float: left;
+  flex: auto;
+}
+
+.slide:nth-child(1){
+  background: #ffd966;
+}
+
+.slide:nth-child(2){
+  background: #828217;
+}
+
+.slide:nth-child(3){
+  background: #ff9999;
+}
+
+/* First Block */
+
+.firstBlock {
+  width: 96%;
+  height: 50%;
+  margin-left: 2%;
+  overflow: hidden;
+}
+
+.firstImg {
+  width: 99.8%;
+  height: 700px;
+  float: left;
+}
+
+.firstImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.textBlock {
+  width: 36%;
+  margin-left: 3%;
+  margin-top: 19%;
+  text-align: inherit;
+  font-size: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 3px solid white;
+  background: #b3b3b3;
+  position: absolute;
+}
+
+/* Second Block */
+
+.secondBlock {
+  width: 96%;
+  height: 50%;
+  margin-left: 2%;
+  margin-top: 1.5%;
+  overflow: hidden;
+}
+
+.box1 {
+  width: 42%;
+  height: 430px;
+  background-image: url("images/intro_img1.jpg");
+  background-size: 100% 100%;
+  margin-left: 1.5%;
+  float: left;
+  opacity: 0.5;
+}
+
+.box1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.box1 p {
+  width: 49.5%;
+  margin-left: 10%;
+  margin-top: 10.5%;
+  padding-top: 7%;
+  padding-left: 4.5%;
+  padding-right: 6%;
+  padding-bottom: 14%;
+  font-size: 18px;
+  color: white;
+  border: 2px solid yellow
+}
+
+.box2 {
+  width: 35%;
+  height: 387px;
+  margin-left: 51.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 43px;
+  font-size: 17px;
+  position: absolute;
+  background-image: linear-gradient(to top right, #ffccff, #ffff99);
+  opacity: 0.5;
+  border: 2px solid #bfbfbf;
+}
+
+/* Single Products */
+
+.productsSingle {
+  width: 96%;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: 1%;
+  overflow: hidden;
+  border-bottom: 2px solid #666600;
+}
+
+.secHeading {
+  width: 98.2%;
+  height: 100%;
+  margin-left: 1.5%;
+  color: #666600;
+}
+
+/* First Shopping Window  */
+
+.products {
+  width: 95%;
+  height: 100%;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding-bottom: 5%;
+  float: left;
+  overflow: hidden;
+}
+
+.lotions {
+  width: 29%;
+  height: 100%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  float: left;
+}
+
+.lotions img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.lotions h4 {
+  color: #b3b300;
+}
+
+.lotions a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  margin-top: 2%;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lotions a: hover {
+  background-color: gray;
+  color: white;
+}
+
+/* Modal Windows for Products */
+
+.modalSingle {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(198, 185, 185, 0.8);
+  opacity: 0;
+  pointer-events: none;
+  overflow: scroll;
+}
+
+.modalSingle:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Modal Content */
+
+.salesBlock {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.blockHeading {
+  width: 99.4%;
+  height: 48px;
+}
+
+.blockHeading p{
+  width: 74%;
+  margin-left: 15%;
+  padding-bottom: 1.6%;
+  overflow: hidden;
+  position: absolute;
+  border-bottom: 3px solid lightgray;
+}
+
+.blockHeading a {
+  font-size: 100%;
+  background-color: lightgray;
+  color: #666666;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.item {
+  width: 30%;
+  margin-top: 4%;
+  margin-left: 15%;
+  float: left;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+}
+
+.infoblock {
+  width: 40%;
+  margin-top: 4%;
+  margin-left: 50%;
+}
+
+.continueBlock {
+  width: 99.3%;
+  background-color: lightgray;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+
+.continueBlock p {
+  width: 75.5%;
+  margin-left: 14%;
+  margin-top: 2%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  border-bottom: 3px solid white;
+}
+
+.continueBlock a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  margin-left: 14%;
+  top: 62%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+/* Footer Section */
+
+.footer {
+  width: 96%;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  background-color: black;
+  float: left;
+}
+
+.footerTop {
+  width: 80%;
+  margin-top: 3%;
+  padding-bottom: 4%;
+  border-bottom: 2px solid white;
+  float: left;
+  margin-left: 12%;
+}
+
+.infoTypes {
+  width: 20%;
+  color: white;
+  text-align: center;
+  float: left;
+  margin-right: 3%;
+  padding-left: 2%;
+}
+
+.infoTypes a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerMidSec {
+  width: 92.2%;
+  color: white;
+  margin-top: 3%;
+  text-align: right;
+  float: left;
+}
+
+.socialMedia {
+  width: 30%;
+  margin-left: 60%;
+  float: left;
+}
+
+.sites {
+  width: 13%;
+  color: white;
+  margin-left: 5%;
+  float: left;
+}
+
+.sites img {
+  width: 100%;
+  height: 100%;
+}
+
+.footerCopyrights {
+  width: 96%;
+  color: white;
+  text-align: center;
+  float: left;
+}
